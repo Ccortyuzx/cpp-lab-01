@@ -17,7 +17,6 @@ bool FitsInInt(long long value) {
     
 }
 
-long long SumAsLongLong(int a, int b) {
-    long long c = int(a);
-    return c + b;
+long long SumAsLongLong(int a,int b) {
+    return static_cast<long long>(a) + b;
 }
